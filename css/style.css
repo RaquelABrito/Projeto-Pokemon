@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Potta One", cursive;
+
+
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../img/blue-background.svg"), linear-gradient(180deg, #3e5ca2 0%, #143685 100%);;
+
+  font-family: "Potta One", cursive;
+
+}
+.largura {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+  h1 {
+    color: #f7cc46;
+
+    letter-spacing: 4px;
+    font-size: 54px;
+
+    margin-bottom: 42px;
+  }
+
+ img {
+    display: block;
+
+    margin-bottom: 40px;
+  }
+
+ img:hover {
+    transform: scale(1.5);
+  }
+
+.card{
+  margin: 5px;
+	padding: 10px 10px;
+  animation: bounce 0.5s linear;
+
+}
+
+#cardPokemons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+ gap: 10px;
+  gap: 50px 50px; /* row-gap column gap */
+
+}
+
+.img-pokemon {
+  height: 100px;
+	position: relative;
+	z-index: 2;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input {
+  font-family: "Potta One", cursive;
+}
+
+.button-home {
+    background-color: #cd3529;
+    color: #fff;
+
+    border: none;
+    font-size: 24px;
+
+    width: 270px;
+
+    border-radius: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  btn:focus{
+    color: red;
+  }
