@@ -88,6 +88,13 @@ function favoritarPokemon(obj) {
     localStorage.setItem('lista_pokemons_favoritos', JSON.stringify(pokemonLista));
 }
 
+//Armazena o nome digitado no localstorage
+function getNomeJogador() {
+    var nome = document.getElementById("nome-jogador").getAttribute('value');
+   
+    localStorage.setItem('nome_jogador', nome);
+}
+
 const pokemonDetalhe = [];
 //Dados para criação do grafico
 function getPokemonsDetalhesRequiscao(pokemonsDetalhes) {
